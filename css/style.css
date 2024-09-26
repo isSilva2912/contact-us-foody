@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 150px; 
+}
+
+.card-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Isso garante que a imagem preencha o espaço sem distorcer */
+}
+
+
+
+.carousel-inner {
+
+    width: 100%;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.titulo1 {
+    font-size: 1rem;
+    display: block;
+}
+
+
