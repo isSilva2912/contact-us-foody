@@ -10,21 +10,56 @@
 </head>
 <body>
     <header>
-        <div class="first-menu">
-            <div class="row">
-                <div class="col-2">
-                    <h2>Store</h2>
-                </div>
-                <div class="col-6"></div>
-                <div class="col-4">
-                    <button type="button" class="btn btn-outline-secondary">SingUp</button>
-                    <button type="button" class="btn btn-dark">Login</button>
+        <nav class="navbar bg-body-tertiary" style="margin: 0; padding: 0;">
+            <div class= "container-fluid" style="background-color: #d5d5d5; padding: 1rem; top: 0;">
+                <h2>Store</h2>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" style="background-color: #232323; color: white; border: none;"  type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <ul class="nav nav-pills" style="background-color: #d5d5d5;border-top: 1px solid #232323;border-bottom: 1px solid #232323;">
+            <li class="nav-item" >
+                <a class="nav-link" style="color: black;" aria-current="page" href="#">Beauty</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="color: black;" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Wear</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Women</a></li>
+                    <li><a class="dropdown-item" href="#">Men</a></li>
+                    <li><a class="dropdown-item" href="#">Kids</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style="color: black;" href="#">Home</a>
+            </li>
+        </ul>
+
+            <div class="banner" 
+            style=
+            "height: 70vh;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            line-height: 0.8;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;">
+                <h1 style="z-index: 1000; color: white;">Change your wardrobe</h1>
+                <div class="d-flex justify-content-center banner" 
+                style=
+                "position: absolute; 
+                width: 100% ;
+                height: 400px;
+                filter: brightness(60%);
+                object-fit: cover;
+                border-radius: 1rem;
+                margin: 0.625rem;">
+                    <img src="./assets/administrar-uma-loja-de-roupa.png" alt="imagem de roupas">
                 </div>
             </div>
-        </div>
-        <div>
 
-        </div>
     </header>
     <footer>
         <div class="container">
