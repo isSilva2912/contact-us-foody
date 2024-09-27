@@ -19,7 +19,9 @@
     object-fit: cover; /* Isso garante que a imagem preencha o espaço sem distorcer */
 }
 
-
+.d-flex {
+    gap: 1.5rem;
+}
 
 .carousel-inner {
 
