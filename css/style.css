@@ -1,8 +1,10 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 .card {
     width: 150px; 
@@ -35,5 +37,18 @@ main {
     font-size: 1rem;
     display: block;
 }
+
+
+=======
+html {
+    font-size: 16px;
+}
+
+.banner img {
+    width: 70% ;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin: 0.625rem;
 
 
