@@ -45,7 +45,21 @@ html {
 
 main {
     background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
+
+.section-1{
+    display: flex;
+    justify-content: center;
+} 
+
+.section2{
+    display: flex;
+    justify-content: center;
+} 
 
 
 .titulo1 {
